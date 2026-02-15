@@ -1,0 +1,23 @@
+/* src/styles/theme.css */
+
+:root {
+  --color-bg: #f4ecd8;
+  --color-text: #2a2419;
+  --color-brown: #5c4b3d;
+  --color-blue: #3f5f7f;
+  --color-purple: #6b5b7f;
+}
+
+body {
+  font-family: Georgia, serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-brown);
+}
+
+a:hover {
+  text-decoration: underline;
+}
